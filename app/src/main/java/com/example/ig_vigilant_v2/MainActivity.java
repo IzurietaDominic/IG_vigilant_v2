@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity {
         //                 //
 
         //Reproducir video//
-        //VideoView videoView = findViewById(R.id.video_mP);
-        //reproducirVideoIndefinido(this, videoView, R.raw.wabe_blue);
+       //VideoView videoView = findViewById(R.id.video_mP);
+      //reproducirVideoIndefinido(this, videoView, R.raw.wabe_blue);
         //                //
 
 
@@ -53,18 +53,18 @@ public class MainActivity extends AppCompatActivity {
         botonM1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    // Reproducir sonido al presionar el botón
-                    Acciones_Comunes.reproducirSonido(MainActivity.this, R.raw.efecto_confirmar);
+                    try {
+                        // Reproducir sonido al presionar el botón
+                        Acciones_Comunes.reproducirSonido(MainActivity.this, R.raw.efecto_confirmar);
 
-                    // Cambiar de actividad
-                    Acciones_Comunes.cambiarDeActividad(MainActivity.this, Opcion_1.class);
-                } catch (Exception e) {
-                    // Manejo de excepciones
-                    Toast.makeText(MainActivity.this, "Error al reproducir sonido o cambiar de actividad", Toast.LENGTH_SHORT).show();
-                    e.printStackTrace();
+                        // Cambiar de actividad
+                        Acciones_Comunes.cambiarDeActividad(MainActivity.this, Opcion_1.class);
+                    } catch (Exception e) {
+                        // Manejo de excepciones
+                        Toast.makeText(MainActivity.this, "Error al reproducir sonido o cambiar de actividad", Toast.LENGTH_SHORT).show();
+                        e.printStackTrace();
+                    }
                 }
-            }
 
         });
         //    //
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                     Acciones_Comunes.reproducirSonido(MainActivity.this, R.raw.efecto_confirmar);
 
                     // Cambiar de actividad
-                    Acciones_Comunes.cambiarDeActividad(MainActivity.this, Opcion_2.class);
+                    Acciones_Comunes.cambiarDeActividad(MainActivity.this,Opcion_2.class);
                 } catch (Exception e) {
                     // Manejo de excepciones
                     Toast.makeText(MainActivity.this, "Error al reproducir sonido o cambiar de actividad", Toast.LENGTH_SHORT).show();
@@ -87,6 +87,25 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+        Button botonM3 = findViewById(R.id.boton_m3);
+        botonM3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    // Reproducir sonido al presionar el botón
+                    Acciones_Comunes.reproducirSonido(MainActivity.this, R.raw.efecto_confirmar);
+
+                    // Cambiar de actividad
+                    Acciones_Comunes.cambiarDeActividad(MainActivity.this, Opcion_3.class);
+                } catch (Exception e) {
+                    // Manejo de excepciones
+                    Toast.makeText(MainActivity.this, "Error al reproducir sonido o cambiar de actividad", Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
+            }
+
+        });
+
         //    //
         //menu4//
         Button botonM4 = findViewById(R.id.boton_m4);
@@ -106,7 +125,45 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
 
+
         });
+        Button botonM5 = findViewById(R.id.boton_m5);
+        botonM5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    // Reproducir sonido al presionar el botón
+                    Acciones_Comunes.reproducirSonido(MainActivity.this, R.raw.efecto_confirmar);
+
+                    // Cambiar de actividad
+                    Acciones_Comunes.cambiarDeActividad(MainActivity.this, Opcion_5.class);
+                } catch (Exception e) {
+                    // Manejo de excepciones
+                    Toast.makeText(MainActivity.this, "Error al reproducir sonido o cambiar de actividad", Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
+            }
+
+        });
+        Button botonM8 = findViewById(R.id.boton_m8);
+        botonM8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    // Reproducir sonido al presionar el botón
+                    Acciones_Comunes.reproducirSonido(MainActivity.this, R.raw.efecto_confirmar);
+
+                    // Cambiar de actividad
+                    Acciones_Comunes.cambiarDeActividad(MainActivity.this,Opcion_8.class);
+                } catch (Exception e) {
+                    // Manejo de excepciones
+                    Toast.makeText(MainActivity.this, "Error al reproducir sonido o cambiar de actividad", Toast.LENGTH_SHORT).show();
+                    e.printStackTrace();
+                }
+            }
+
+        });
+
         //    //
         //crear una nueva persona//
         Button botonPersona = findViewById(R.id.boton_personas);
@@ -127,27 +184,7 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-        //    //
-        //agregar un nuevo vehiculo//
-        Button botonVehiculo = findViewById(R.id.boton_vehiculos);
-        botonVehiculo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    // Reproducir sonido al presionar el botón
-                    Acciones_Comunes.reproducirSonido(MainActivity.this, R.raw.efecto_confirmar);
-
-                    // Cambiar de actividad
-                    Acciones_Comunes.cambiarDeActividad(MainActivity.this, Menu_Vehiculos.class);
-                } catch (Exception e) {
-                    // Manejo de excepciones
-                    Toast.makeText(MainActivity.this, "Error al reproducir sonido o cambiar de actividad", Toast.LENGTH_SHORT).show();
-                    e.printStackTrace();
-                }
-            }
-
-        });
-
+        //                       //
 
 
 

@@ -59,7 +59,7 @@
         android:id="@+id/m2_texto_ManzanaResidencia"
         android:layout_width="217dp"
         android:layout_height="52dp"
-        android:hint="escribfa"
+        android:hint="escriba"
         android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

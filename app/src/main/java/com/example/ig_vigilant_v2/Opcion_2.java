@@ -51,7 +51,7 @@ public class Opcion_2 extends AppCompatActivity {
 
 
 
-            // Seleccionar un elemento del Spinner//
+        // Seleccionar un elemento del Spinner//
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {

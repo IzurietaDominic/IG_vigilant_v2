@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="buttonGuardar" type="id" />
+    <item name="textViewResumen" type="id" />
+    <item name="editTextNombreVehiculo" type="id" />
+    <item name="editTextPlacaVehiculo" type="id" />
+    <item name="button4" type="id" />
+</resources>

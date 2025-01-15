@@ -29,7 +29,16 @@
             android:name=".Opcion_2"
             android:exported="true" />
         <activity
+            android:name=".Opcion_3"
+            android:exported="true" />
+        <activity
             android:name=".Opcion_4"
+            android:exported="true" />
+        <activity
+            android:name=".Opcion_5"
+            android:exported="true" />
+        <activity
+            android:name=".Opcion_8"
             android:exported="true" />
         <activity
             android:name=".Menu_Personas"
@@ -40,6 +49,26 @@
         <activity
             android:name=".Menu_Visitantes"
             android:exported="true" />
+        <activity
+            android:name=".Menu_Evento"
+            android:exported="true"
+            tools:ignore="MissingClass" />
+        <activity
+            android:name=".Menu_Residente"
+            android:exported="true"
+            tools:ignore="DuplicateActivity,MissingClass" />
+        <activity
+            android:name=".Menu_Residencia"
+            android:exported="true"
+            tools:ignore="DuplicateActivity,MissingClass" />
+        <activity
+            android:name=".Menu_Etapa"
+            android:exported="true"
+            tools:ignore="DuplicateActivity,MissingClass" />
+        <activity
+            android:name=".Menu_Visitante"
+            android:exported="true"
+            tools:ignore="DuplicateActivity,MissingClass" />
 
     </application>
 
