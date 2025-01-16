@@ -69,6 +69,21 @@
             android:name=".Menu_Visitante"
             android:exported="true"
             tools:ignore="DuplicateActivity,MissingClass" />
+        <activity
+            android:name=".Menu_Vehiculos"
+            android:exported="true" />
+        <activity
+            android:name=".Menu_VehiculoResidente"
+            android:exported="true" />
+        <activity
+            android:name=".Menu_VehiculoVisitante"
+            android:exported="true" />
+        <activity
+            android:name=".Opcion_6"
+            android:exported="true" />
+        <activity
+            android:name=".Opcion_7"
+            android:exported="true" />
 
     </application>
 
