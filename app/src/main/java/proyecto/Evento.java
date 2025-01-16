@@ -92,5 +92,35 @@ public class Evento {
             e.printStackTrace();
         }
     }
+        public static List<String> leerEventosDesdeArchivo(Context context) {
+        List<String> eventos = new ArrayList<>();
+        File archivoEventos = new File(context.getFilesDir(), "eventos.txt");
+
+        if (!archivoEventos.exists()) {
+            eventos.add("No hay eventos disponibles");
+            return eventos;
+        }
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(archivoEventos))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                if (line.startsWith("Nombre del Evento: ")) {
+                    String eventoNombre = line.substring(19).trim(); // Extrae después de "Nombre del Evento: "
+                    if (!eventoNombre.isEmpty()) {
+                        eventos.add(eventoNombre);
+                    }
+                }
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+            eventos.add("Error al leer el archivo");
+        }
+
+        if (eventos.isEmpty()) {
+            eventos.add("No hay eventos disponibles");
+        }
+
+        return eventos;
+    }
 }
 
