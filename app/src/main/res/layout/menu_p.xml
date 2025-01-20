@@ -20,6 +20,18 @@
         app:layout_constraintVertical_bias="0.976" />
 
     <Button
+        android:id="@+id/boton_vehiculos"
+        android:layout_width="89dp"
+        android:layout_height="58dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/video_mP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+    
+    <Button
         android:id="@+id/boton_m1"
         android:layout_width="115dp"
         android:layout_height="107dp"
@@ -73,6 +85,30 @@
         tools:layout_editor_absoluteX="67dp"
         tools:layout_editor_absoluteY="458dp"
         tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/boton_m6"
+        android:layout_width="115dp"
+        android:layout_height="107dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/video_mP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591" />
+
+    <Button
+        android:id="@+id/boton_m7"
+        android:layout_width="115dp"
+        android:layout_height="107dp"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="@+id/video_mP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
 
     <Button
         android:id="@+id/boton_m8"
